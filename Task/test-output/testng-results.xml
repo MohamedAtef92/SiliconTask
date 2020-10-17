@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-17T11:35:43 EET" name="Suite" finished-at="2020-10-17T11:36:19 EET" duration-ms="35733">
+    <groups>
+    </groups>
+    <test started-at="2020-10-17T11:35:43 EET" name="Test" finished-at="2020-10-17T11:36:19 EET" duration-ms="35733">
+      <class name="tests.AssertHotel">
+        <test-method signature="assertHotel()[pri:0, instance:tests.AssertHotel@1d082e88]" started-at="2020-10-17T11:35:49 EET" name="assertHotel" finished-at="2020-10-17T11:35:54 EET" duration-ms="5274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertHotel -->
+        <test-method is-config="true" signature="StopDriver()[pri:0, instance:tests.AssertHotel@1d082e88]" started-at="2020-10-17T11:35:54 EET" name="StopDriver" finished-at="2020-10-17T11:35:55 EET" duration-ms="1318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDriver -->
+      </class> <!-- tests.AssertHotel -->
+      <class name="tests.AssertBook">
+        <test-method signature="assertBook()[pri:0, instance:tests.AssertBook@60704c]" started-at="2020-10-17T11:35:55 EET" name="assertBook" finished-at="2020-10-17T11:36:16 EET" duration-ms="21235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertBook -->
+        <test-method is-config="true" signature="StopDriver()[pri:0, instance:tests.AssertBook@60704c]" started-at="2020-10-17T11:36:16 EET" name="StopDriver" finished-at="2020-10-17T11:36:19 EET" duration-ms="2381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDriver -->
+      </class> <!-- tests.AssertBook -->
+      <class name="tests.AssertLogin">
+        <test-method is-config="true" signature="StartDriver()[pri:0, instance:tests.AssertLogin@7d3a22a9]" started-at="2020-10-17T11:35:21 EET" name="StartDriver" finished-at="2020-10-17T11:35:43 EET" duration-ms="22622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method is-config="true" signature="StartLogin()[pri:0, instance:tests.AssertLogin@7d3a22a9]" started-at="2020-10-17T11:35:43 EET" name="StartLogin" finished-at="2020-10-17T11:35:45 EET" duration-ms="2113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartLogin -->
+        <test-method signature="assertLogin()[pri:0, instance:tests.AssertLogin@7d3a22a9]" started-at="2020-10-17T11:35:45 EET" name="assertLogin" finished-at="2020-10-17T11:35:48 EET" duration-ms="2266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertLogin -->
+        <test-method is-config="true" signature="StopDriver()[pri:0, instance:tests.AssertLogin@7d3a22a9]" started-at="2020-10-17T11:35:48 EET" name="StopDriver" finished-at="2020-10-17T11:35:49 EET" duration-ms="1019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopDriver -->
+      </class> <!-- tests.AssertLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
